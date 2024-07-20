@@ -1,0 +1,13 @@
+{
+  "name": "arcjet-challenge",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun run dev.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "chokidar": "^3.6.0"
+  }
+}

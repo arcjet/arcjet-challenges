@@ -30,7 +30,7 @@ To begin the challenge:
 
 5. Once you've successfully implemented rate limiting, capture evidence of your success (e.g., a screenshot or video of the rate-limited response).
 
-6. Share your success on social media, tagging @arcjetapi and using the hashtag #ArcjetChallenge.
+6. Share your success on social media, tagging @arcjethq and using the hashtag #ArcjetChallenge.
 
 ## Need Help?
 

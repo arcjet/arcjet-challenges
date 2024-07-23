@@ -34,8 +34,10 @@ All four example directories contain a working, idiomatic skeleton application w
 3. [README for Bun](./bun/README.md)
 4. [README for SvelteKit](./sveltekit/README.md)
 
+### 4. Implement rate limiting using Arcjet
 
-### 4. Implement rate limiting using Arcjet. You can find documentation and guides at [docs.arcjet.com](https://docs.arcjet.com).
+- [Sign up for an Arcjet account for free](https://app.arcjet.com/)
+- Use our documentation and guides at [docs.arcjet.com](https://docs.arcjet.com)
 
 Hint: Select a low threshold so that you can trigger the rate-limiting easily, for example:
 
@@ -43,16 +45,19 @@ Hint: Select a low threshold so that you can trigger the rate-limiting easily, f
 - a [sliding window](https://docs.arcjet.com/rate-limiting/algorithms#sliding-window-example) with an `interval` of `60s` and a `max` of `5` requests; or
 - a [token bucket](https://docs.arcjet.com/rate-limiting/algorithms#token-bucket-example) with a `capacity` of `10`, an `interval` of `60s`, and a `refillRate` of `10`.
 
-### 5. Once you've successfully implemented rate limiting, capture evidence of your success:
+### 5. Capture evidence of your success
 
-- both a screenshot of the "Rate-Limit Success" page from your app;
-- and a screenshot of your Arcjet dashboard showing the blocked requests.
+Once you've successfully implemented rate limiting, get both:
+- a screenshot of the "Rate-Limit Success" page from your app; and
+- a screenshot of your Arcjet dashboard showing the blocked requests.
 
-### 6. Share your experience on X (formerly Twiiter) and/or LinkedIn:
-- Start your post with the following, so we can search for it: "I completed the #ArcjetChallenge - can you get your shields up? https://challange.arcjet.com/"
-- Add what you enjoyed about the challenge, how you found the experience, or what you think of the product.
-- Tag [@arcjethq](https://twitter.com/arcjethq) on X (formerly Twitter)
-- Tag [Arcjet](https://www.linkedin.com/company/arcjet) on LinkedIn
+### 6. Share your experience with your network
+
+Submissions can be posted to both X (formerly Twiiter) and LinkedIn:
+- start your post with the following, so we can search for it: "I completed the #ArcjetChallenge - can you get your shields up? https://challange.arcjet.com/"
+- add what you enjoyed about the challenge, how you found the experience, or what you think of the product.
+- tag [@arcjethq](https://twitter.com/arcjethq) on X (formerly Twitter)
+- tag [Arcjet](https://www.linkedin.com/company/arcjet) on LinkedIn
 
 > 💡 Each social network post that meets the above criteria will count as an entry to the competition, and three winners will be selected based on the most creative post message. Entries are subject to, and your submission is deemed acceptance of, the [Arcjet Challenge Terms and Conditions](https://challenge.arcjet.com/terms).
 

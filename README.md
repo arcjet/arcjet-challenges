@@ -1,8 +1,8 @@
-# Arcjet Security Challenges
+# 🛡️ Arcjet Security Challenges
 
 Welcome to the Arcjet Security Challenges repository! This project contains skeleton apps for four popular web frameworks, each designed to help you learn about implementing rate limiting with Arcjet.
 
-## Frameworks
+## 🖥️ Frameworks
 
 This repository includes challenges for the following frameworks:
 
@@ -11,11 +11,11 @@ This repository includes challenges for the following frameworks:
 3. [Bun](./bun)
 4. [SvelteKit](./sveltekit)
 
-## The Challenge
+## 🎯 The Challenge
 
 Your mission is to implement rate limiting using Arcjet in one (or more!) of these skeleton apps. Once you've successfully implemented rate limiting, share evidence of your success on social media. If your post is part of an active competition, you might be eligible to win a prize!
 
-## How to Participate
+## 🚀 How to Participate
 
 ### 1. Clone this repository to your local machine
 
@@ -23,53 +23,61 @@ Your mission is to implement rate limiting using Arcjet in one (or more!) of the
 git clone https://github.com/arcjet/arcjet-challenges.git
 ```
 
-### 2. Choose the framework you want to work with and navigate to its directory
+### 2. Choose your framework
 
 All four example directories contain a working, idiomatic skeleton application written in TypeScript for you to build upon.
 
-### 3. Follow the specific instructions in the README.md file within each framework's directory to set up and run the skeleton app.
+### 3. Set up the skeleton app
 
-1. [README for Next.js](./nextjs/README.md)
-2. [README for Node.js with Express](./express/README.md)
-3. [README for Bun](./bun/README.md)
-4. [README for SvelteKit](./sveltekit/README.md)
+Follow the specific instructions in the `README.md` file within each framework's directory:
 
-### 4. Implement rate limiting using Arcjet
+- [README for Next.js](./nextjs/README.md)
+- [README for Node.js with Express](./express/README.md)
+- [README for Bun](./bun/README.md)
+- [README for SvelteKit](./sveltekit/README.md)
 
-- [Sign up for an Arcjet account for free](https://app.arcjet.com/)
-- Use our documentation and guides at [docs.arcjet.com](https://docs.arcjet.com)
+### 4. Implement rate limiting
 
-Hint: Select a low threshold so that you can trigger the rate-limiting easily, for example:
+- [Sign up for a free Arcjet account](https://app.arcjet.com/)
+- Use our [documentation and guides](https://docs.arcjet.com)
 
-- a [fixed window](https://docs.arcjet.com/rate-limiting/algorithms#fixed-window-example) with a `window` of `60s` and a `max` of `5` requests;
-- a [sliding window](https://docs.arcjet.com/rate-limiting/algorithms#sliding-window-example) with an `interval` of `60s` and a `max` of `5` requests; or
-- a [token bucket](https://docs.arcjet.com/rate-limiting/algorithms#token-bucket-example) with a `capacity` of `10`, an `interval` of `60s`, and a `refillRate` of `10`.
+> 💡 **Hint:** Select a low threshold to easily trigger rate-limiting. For example:
+> - [Fixed window](https://docs.arcjet.com/rate-limiting/algorithms#fixed-window-example) with a `window` of `60s` and a `max` of `5` requests
+> - [Sliding window](https://docs.arcjet.com/rate-limiting/algorithms#sliding-window-example) with an `interval` of `60s` and a `max` of `5` requests
+> - [Token bucket](https://docs.arcjet.com/rate-limiting/algorithms#token-bucket-example) with a `capacity` of `10`, an `interval` of `60s`, and a `refillRate` of `10`
 
-### 5. Capture evidence of your success
+### 5. Capture your success
 
-Once you've successfully implemented rate limiting, get both:
-- a screenshot of the "Rate-Limit Success" page from your app; and
-- a screenshot of your Arcjet dashboard showing the blocked requests.
+Get both:
+- A screenshot of the "Rate-Limit Success" page from your app
+- A screenshot of your Arcjet dashboard showing the blocked requests
 
-### 6. Share your experience with your network
+### 6. Share your experience
 
-Submissions can be posted to both X (formerly Twiiter) and LinkedIn:
-- start your post with the following, so we can search for it: "I completed the #ArcjetChallenge - can you get your shields up? https://challange.arcjet.com/"
-- add what you enjoyed about the challenge, how you found the experience, or what you think of the product.
-- tag [@arcjethq](https://twitter.com/arcjethq) on X (formerly Twitter)
-- tag [Arcjet](https://www.linkedin.com/company/arcjet) on LinkedIn
+Post on X (formerly Twitter) and LinkedIn:
+- Start with: "I completed the #ArcjetChallenge - can you get your shields up? https://challange.arcjet.com/"
+- Add what you enjoyed about the challenge, your experience, or thoughts on the product
+- Tag [@arcjethq](https://twitter.com/arcjethq) on X (formerly Twitter)
+- Tag [Arcjet](https://www.linkedin.com/company/arcjet) on LinkedIn
 
-> 💡 Each social network post that meets the above criteria will count as an entry to the competition, and three winners will be selected based on the most creative post message. Entries are subject to, and your submission is deemed acceptance of, the [Arcjet Challenge Terms and Conditions](https://challenge.arcjet.com/terms).
+> ⚖️ Each qualifying post counts as a competition entry. Three winners will be selected based on post creativity. Entries are subject to the [Arcjet Challenge Terms and Conditions](https://challenge.arcjet.com/terms).
 
-## Need Help?
+### 7. Share feedback (optional)
 
-If you run into any issues or have questions about the challenge:
+We value your insights! 📣 Help shape the future of Arcjet:
 
-- Check out the [Arcjet documentation](https://docs.arcjet.com)
+🔗 [Take our quick survey](https://forms.gle/hn8uWDNjsPeX9Dx18) to share your challenge experience, product feedback, and potentially become an Arcjet ambassador. Your input directly influences our roadmap and community initiatives. Plus, you might get early access to exciting new features!
+
+**Time:** ~5 minutes | **Impact:** Immeasurable 🚀
+
+## 🆘 Need Help?
+
+If you run into issues or have questions:
+
+- Check the [Arcjet documentation](https://docs.arcjet.com)
 - Join our [Discord community](https://discord.gg/TPra6jqZDC) for support
-- Open an issue in this repository if you think you've found a bug in the skeleton apps
+- Open an issue in this repository for potential bugs in the skeleton apps
 
-## Good Luck!
+## 🍀 Good Luck!
 
 We're excited to see your implementations. Happy coding, and may the best rate limiter win!
-

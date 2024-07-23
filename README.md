@@ -54,7 +54,7 @@ Hint: Select a low threshold so that you can trigger the rate-limiting easily, f
 - Tag [@arcjethq](https://twitter.com/arcjethq) on X (formerly Twitter)
 - Tag [Arcjet](https://www.linkedin.com/company/arcjet) on LinkedIn
 
-> 💡 Each entry will count as an entry to the competition, and three winners will be selected based on the most creative post message.
+> 💡 Each social network post that meets the above criteria will count as an entry to the competition, and three winners will be selected based on the most creative post message. Entries are subject to, and your submission is deemed acceptance of, the [Arcjet Challenge Terms and Conditions](https://challenge.arcjet.com/terms).
 
 ## Need Help?
 

@@ -38,13 +38,22 @@ Follow the specific instructions in the `README.md` file within each framework's
 
 ### 4. Implement rate limiting
 
-- [Sign up for a free Arcjet account](https://app.arcjet.com/)
-- Use our [documentation and guides](https://docs.arcjet.com)
+- [Sign up for a free Arcjet account](https://app.arcjet.com/),
+- Find the file in your chosen skeleton app that defines a boolean `limited` to `false`,
+- Implemnent Arcjet rate-limiting to set that value to `true` when appropriate.
+
+Use our [documentation and guides](https://docs.arcjet.com)
 
 > 💡 **Hint:** Select a low threshold to easily trigger rate-limiting. For example:
 > - [Fixed window](https://docs.arcjet.com/rate-limiting/algorithms#fixed-window-example) with a `window` of `60s` and a `max` of `5` requests
 > - [Sliding window](https://docs.arcjet.com/rate-limiting/algorithms#sliding-window-example) with an `interval` of `60s` and a `max` of `5` requests
 > - [Token bucket](https://docs.arcjet.com/rate-limiting/algorithms#token-bucket-example) with a `capacity` of `10`, an `interval` of `60s`, and a `refillRate` of `10`
+
+> 🗂️ The file you're looking for is:
+> - Next.js: `src/app/arcjet-challenge-accepted/page.tsx`
+> - Node.js + Express: `src/pages/arcjet-challenge-accepted/index.ts`
+> - Bun: `src/pages/arcjet-challenge-accepted.ts`
+> - SvelteKit: `src/routes/arcjet-challenge-accepted/+page.svelte`
 
 ### 5. Capture your success
 

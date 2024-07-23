@@ -13,4 +13,10 @@ In order to get this skeleton app to run, follow the following steps:
 5. Start the server with `bun run dev`
 6. Open your browser and visit `http://localhost:3000`
 
-You should now see the Arcjet Challenge page. Good luck!
+You should now see the Arcjet Challenge page.
+
+## How to Participate
+
+Check out the implementation steps in the [Arcjet Challenge README](../README.md) or at the [Arcjet Challenge Landing Page](https://challenge.arcjet.com/).
+
+Good luck 🍀

@@ -17,8 +17,8 @@ export default function NotRateLimited(): string {
           <li>
             Use our <a href="https://docs.arcjet.com/">documentation</a> to
             help you get started, in particular, the <a
-            href="https://docs.arcjet.com/rate-limiting/quick-start/nextjs">Rate
-            limiting for Next.js</a> section.
+            href="https://docs.arcjet.com/rate-limiting/quick-start/nodejs">Rate
+            limiting for Node.js</a> section.
           </li>
           <li>
             Tip: Select a low threshold to easily trigger rate-limiting. For

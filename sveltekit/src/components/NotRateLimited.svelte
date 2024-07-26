@@ -19,8 +19,8 @@
       <li>
         Use our <a href="https://docs.arcjet.com/">documentation</a> to help you
         get started, in particular, the
-        <a href="https://docs.arcjet.com/rate-limiting/quick-start/nextjs"
-          >Rate limiting for Next.js</a
+        <a href="https://docs.arcjet.com/rate-limiting/quick-start/sveltekit"
+          >Rate limiting for SvelteKit</a
         > section.
       </li>
       <li>

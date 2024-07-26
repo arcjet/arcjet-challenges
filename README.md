@@ -39,17 +39,19 @@ Follow the specific instructions in the `README.md` file within each framework's
 ### 4. Implement rate limiting
 
 - [Sign up for a free Arcjet account](https://app.arcjet.com/),
-- Find the file in your chosen skeleton app that defines a boolean `limited` to `false`,
-- Implemnent Arcjet rate-limiting to set that value to `true` when appropriate.
+- Find the file in your chosen skeleton app that contains the text `// Arcjet code goes here`,
+- Implemnent Arcjet rate-limiting to set the value of `rateLimited` value to `true` when the user has been rate limited.
 
 Use our [documentation](https://docs.arcjet.com) to help you get started, in particular, the Rate limiting section for your chosen framework.
 
 > 💡 **Tip:** Select a low threshold to easily trigger rate-limiting. For example:
+>
 > - [Fixed window](https://docs.arcjet.com/rate-limiting/algorithms#fixed-window-example) with a `window` of `60s` and a `max` of `5` requests
 > - [Sliding window](https://docs.arcjet.com/rate-limiting/algorithms#sliding-window-example) with an `interval` of `60s` and a `max` of `5` requests
 > - [Token bucket](https://docs.arcjet.com/rate-limiting/algorithms#token-bucket-example) with a `capacity` of `10`, an `interval` of `60s`, and a `refillRate` of `10`
 
 > 🗂️ The file you're looking for is:
+>
 > - Next.js: `src/app/arcjet-challenge-accepted/page.tsx`
 > - Node.js + Express: `src/pages/arcjet-challenge-accepted/index.ts`
 > - Bun: `src/pages/arcjet-challenge-accepted.ts`
@@ -58,12 +60,14 @@ Use our [documentation](https://docs.arcjet.com) to help you get started, in par
 ### 5. Capture your success
 
 Get both:
+
 - A screenshot of the "Rate-Limit Success" page from your app
 - A screenshot of your Arcjet dashboard showing the blocked requests
 
 ### 6. Share your experience
 
 Post on X (formerly Twitter) and LinkedIn:
+
 - Start with: "I completed the #ArcjetChallenge - can you get your shields up? https://challange.arcjet.com/"
 - Add what you enjoyed about the challenge, your experience, or thoughts on the product
 - Tag [@arcjethq](https://twitter.com/arcjethq) on X (formerly Twitter)

@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   const { req } = context;
 
   /**
-   * Complete the challenge and use Arcjet to set the value of limited to true
+   * Complete the challenge and use Arcjet to set the value of rateLimited to true
    * when the user has been rate limited.
    */
   // Arcjet code goes here...

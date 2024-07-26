@@ -18,7 +18,7 @@ export default function NotRateLimited() {
         <li>
           Edit <code>src/app/arcjet-challenge-accepted/page.tsx</code> and
           implement Arcjet rate-limit protection by setting the value of{" "}
-          <code>limited</code> to <code>true</code> when appropriate
+          <code>rateLimited</code> to <code>true</code> when appropriate
           <ul>
             <li>
               Use our <a href="https://docs.arcjet.com/">documentation</a> to

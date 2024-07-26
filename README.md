@@ -42,9 +42,9 @@ Follow the specific instructions in the `README.md` file within each framework's
 - Find the file in your chosen skeleton app that defines a boolean `limited` to `false`,
 - Implemnent Arcjet rate-limiting to set that value to `true` when appropriate.
 
-Use our [documentation and guides](https://docs.arcjet.com)
+Use our [documentation](https://docs.arcjet.com) to help you get started, in particular, the Rate limiting section for your chosen framework.
 
-> 💡 **Hint:** Select a low threshold to easily trigger rate-limiting. For example:
+> 💡 **Tip:** Select a low threshold to easily trigger rate-limiting. For example:
 > - [Fixed window](https://docs.arcjet.com/rate-limiting/algorithms#fixed-window-example) with a `window` of `60s` and a `max` of `5` requests
 > - [Sliding window](https://docs.arcjet.com/rate-limiting/algorithms#sliding-window-example) with an `interval` of `60s` and a `max` of `5` requests
 > - [Token bucket](https://docs.arcjet.com/rate-limiting/algorithms#token-bucket-example) with a `capacity` of `10`, an `interval` of `60s`, and a `refillRate` of `10`

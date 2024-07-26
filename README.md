@@ -52,7 +52,7 @@ Use our [documentation](https://docs.arcjet.com) to help you get started, in par
 
 > 🗂️ The file you're looking for is:
 >
-> - Next.js: `src/app/arcjet-challenge-accepted/page.tsx`
+> - Next.js: `src/pages/arcjet-challenge-accepted/index.tsx`
 > - Node.js + Express: `src/pages/arcjet-challenge-accepted/index.ts`
 > - Bun: `src/pages/arcjet-challenge-accepted.ts`
 > - SvelteKit: `src/routes/arcjet-challenge-accepted/+page.svelte`
@@ -61,27 +61,29 @@ Use our [documentation](https://docs.arcjet.com) to help you get started, in par
 
 Get both:
 
-- A screenshot of the "Rate-Limit Success" page from your app
-- A screenshot of your Arcjet dashboard showing the blocked requests
+- a screenshot or saved copy of the "Challenge Complete" image from your app
+- a screenshot of your Arcjet dashboard showing the blocked requests
 
 ### 6. Share your experience
 
-Post on X (formerly Twitter) and LinkedIn:
+Share your experience on X (formerly Twitter) and/or LinkedIn:
 
 - Start with: "I completed the #ArcjetChallenge - can you get your shields up? https://challange.arcjet.com/"
 - Add what you enjoyed about the challenge, your experience, or thoughts on the product
 - Tag [@arcjethq](https://twitter.com/arcjethq) on X (formerly Twitter)
 - Tag [Arcjet](https://www.linkedin.com/company/arcjet) on LinkedIn
 
-> ⚖️ Each qualifying post counts as a competition entry. Three winners will be selected based on post creativity. Entries are subject to the [Arcjet Challenge Terms and Conditions](https://challenge.arcjet.com/terms).
+The personal part of your submission will be evaluated for creativity and originality when determining the winners!
+
+> ⚖️ Entries are subject to the [Arcjet Challenge Terms and Conditions](https://challenge.arcjet.com/terms).
 
 ### 7. Share feedback (optional)
 
 We value your insights! 📣 Help shape the future of Arcjet:
 
-🔗 [Take our quick survey](https://forms.gle/hn8uWDNjsPeX9Dx18) to share your challenge experience, product feedback, and potentially become an Arcjet ambassador. Your input directly influences our roadmap and community initiatives. Plus, you might get early access to exciting new features!
+📋 [Take our quick survey](https://forms.gle/hn8uWDNjsPeX9Dx18) to share your challenge experience, product feedback, and potentially become an Arcjet ambassador. Your input directly influences our roadmap and community initiatives. Plus, you might get early access to exciting new features!
 
-**Time:** ~5 minutes | **Impact:** Immeasurable 🚀
+📥 Want to give us general feedback? We'd love to hear your suggestions! Fill in our [general fee3back form](https://forms.gle/).vhpb4myy84APztte8
 
 ## 🆘 Need Help?
 

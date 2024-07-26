@@ -12,7 +12,8 @@ export default function RateLimited() {
           <ul>
             <li>Screenshot or save the image above.</li>
             <li>
-              Switch back to your Arcjet dashboard - you should see the requests being blocked. Screenshot this as well.
+              Switch back to your Arcjet dashboard - you should see the requests
+              being blocked. Screenshot this as well.
             </li>
           </ul>
         </li>

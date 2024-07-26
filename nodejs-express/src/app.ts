@@ -10,7 +10,7 @@ const port = 3001;
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
 app.get('/', (req, res) => {
-  res.send(layout(Homepage()));
+  res.redirect('/arcjet-challenge-accepted');
 });
 
 app.get('/arcjet-challenge-accepted', (req, res) => {

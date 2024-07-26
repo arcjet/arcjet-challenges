@@ -1,60 +1,32 @@
+:root {
+  --max-width: 960px;
+}
+
+html,
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #000;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
   color: #e0e0e0;
+  background: #000;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
+a {
+  color: inherit;
+}
+
 .content-wrapper {
-  max-width: 960px;
+  max-width: var(--max-width);
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-}
-
-a.button {
-  display: inline-block;
-  background-color: #1a1a1a;
-  color: #e0e0e0;
-  padding: 10px 20px;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  border: none;
-  margin-top: 10px;
-  position: relative;
-  overflow: hidden;
-}
-
-a.button::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-
-a.button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
-}
-
-a.button:hover::after {
-  opacity: 1;
-}
-
-a.button:active {
-  transform: translateY(0);
-  box-shadow: none;
 }
 
 header {
@@ -104,7 +76,8 @@ nav {
   opacity: 0.8;
 }
 
-.menu-items svg {
+.menu-items svg,
+.menu-items .icon {
   width: 24px;
   height: 24px;
 }
@@ -114,7 +87,72 @@ main {
   padding: 2rem 0;
 }
 
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
 footer {
   padding: 1rem 0;
   text-align: center;
+}
+
+.button {
+  display: inline-block;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.button:hover::after {
+  opacity: 1;
+}
+
+.button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+ul li ul {
+  margin-top: 0.5em;
+}
+
+code {
+  background-color: #636363;
+  color: #e0e0e0;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+.success img {
+  display: block;
+  margin: 3rem auto;
+  border: 1px solid #e0e0e0;
 }

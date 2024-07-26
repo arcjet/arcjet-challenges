@@ -13,7 +13,7 @@ export function ArcjetChallenge(): string {
   const content = rateLimited ? RateLimited() : NotRateLimited();
 
   return `
-    <h1>Arcjet Challenge Accepted!</h1>
+    <h1>Arcjet Security Challenge - Bun</h1>
     ${content}
   `;
 }

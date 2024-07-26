@@ -152,7 +152,6 @@ code {
 }
 
 .success img {
-/* center image in div */
   display: block;
   margin: 3rem auto;
   border: 1px solid #e0e0e0;

@@ -1,6 +1,5 @@
 import { serve } from "bun";
 import layout from "./layout";
-import { Homepage } from "./pages/home";
 import { ArcjetChallenge } from "./pages/arcjet-challenge-accepted";
 
 const server = serve({
@@ -9,8 +8,9 @@ const server = serve({
     const url = new URL(req.url);
     
     if (url.pathname === "/") {
-      return new Response(layout(Homepage()), {
-        headers: { "Content-Type": "text/html" },
+      return new Response(null, {
+        status: 307,
+        headers: { Location: "/arcjet-challenge-accepted" },
       });
     }
     

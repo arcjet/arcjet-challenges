@@ -12,8 +12,8 @@
     >
   </li>
   <li>
-    Edit <code>src/routes/arcjet-challenge-accepted/+page.svelte</code> and implement
-    Arcjet rate-limit protection by setting the value of
+    Edit <code>src/routes/arcjet-challenge-accepted/+page.server.ts</code> and
+    implement Arcjet rate-limit protection by setting the value of
     <code>rateLimited</code> to <code>true</code> when appropriate
     <ul>
       <li>

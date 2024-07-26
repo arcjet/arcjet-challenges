@@ -55,7 +55,7 @@ Use our [documentation](https://docs.arcjet.com) to help you get started, in par
 > - Next.js: `src/pages/arcjet-challenge-accepted/index.tsx`
 > - Node.js + Express: `src/pages/arcjet-challenge-accepted/index.ts`
 > - Bun: `src/pages/arcjet-challenge-accepted.ts`
-> - SvelteKit: `src/routes/arcjet-challenge-accepted/+page.svelte`
+> - SvelteKit: `src/routes/arcjet-challenge-accepted/+page.server.ts`
 
 ### 5. Capture your success
 

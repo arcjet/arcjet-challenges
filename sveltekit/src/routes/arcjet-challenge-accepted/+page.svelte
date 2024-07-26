@@ -1,12 +1,6 @@
 <script lang="ts">
   import RateLimited from "../../components/RateLimited.svelte";
   import NotRateLimited from "../../components/NotRateLimited.svelte";
-  /**
-   * Complete the challenge and use Arcjet to set the value of rateLimited to true
-   * when the user has been rate limited.
-   */
-  // Arcjet code goes here...
-
   export let data: { rateLimited: boolean };
 </script>
 

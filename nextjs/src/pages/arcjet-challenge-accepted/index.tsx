@@ -5,16 +5,11 @@ import NotRateLimited from "@/components/NotRateLimited";
 import RateLimited from "@/components/RateLimited";
 
 export default function ArcjetChallengeAccepted({ rateLimited }: { rateLimited: boolean }) {
-  const [isLimited, setIsLimited] = useState(rateLimited);
-  useEffect(() => {
-    setIsLimited(rateLimited);
-  }, [rateLimited]);
-
   return (
     <Layout>
       <div className="container">
         <h1>Arcjet Security Challenge - Next.js</h1>
-        {isLimited ? <RateLimited /> : <NotRateLimited />}
+        {rateLimited ? <RateLimited /> : <NotRateLimited />}
       </div>
     </Layout>
   );

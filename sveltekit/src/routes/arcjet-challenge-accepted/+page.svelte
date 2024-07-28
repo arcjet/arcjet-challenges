@@ -5,10 +5,10 @@
 </script>
 
 <svelte:head>
-  <title>Arcjet Challenge Accepted</title>
+  <title>Arcjet Security Challenge - SvelteKit</title>
 </svelte:head>
 
-<h1>Arcjet Challenge Accepted!</h1>
+<h1>Arcjet Security Challenge - SvelteKit</h1>
 
 {#if data.rateLimited}
   <RateLimited />

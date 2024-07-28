@@ -75,7 +75,7 @@ Share your experience on X (formerly Twitter) and/or LinkedIn:
 
 The personal part of your submission will be evaluated for creativity and originality when determining the winners!
 
-> ⚖️ Entries are subject to the [Arcjet Challenge Terms and Conditions](https://challenge.arcjet.com/terms).
+> ⚖️ Entries are subject to the [Arcjet Security Challenge Terms and Conditions](https://challenge.arcjet.com/terms).
 
 ### 7. Share feedback (optional)
 

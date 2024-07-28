@@ -5,7 +5,7 @@ export function layout(content: string) {
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Arcjet Challenge</title>
+        <title>Arcjet Security Challenge</title>
         <link rel="stylesheet" href="/styles.css">
         <link rel="icon" href="/favicon.png" type="image/png">
       </head>

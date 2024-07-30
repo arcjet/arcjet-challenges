@@ -7,6 +7,9 @@ export function ArcjetChallenge() {
    * when the user has been rate limited.
    */
   // Arcjet code goes here...
+  if(RateLimited){
+    rateLimited = true;
+  }
   const rateLimited = false;
 
   // We include the correct component based on the value of rateLimited

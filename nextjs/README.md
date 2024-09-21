@@ -1,6 +1,6 @@
 # Arcjet Security Challenge - Next.js
 
-This is a skeleton Next.js app for you to modify. Your challenge is to get rate limiting to work and post evidence of your success to social media. If your post is in conjunction with an active competition, you could be in the running to win a prize!
+This is a skeleton Next.js app for you to modify. Your challenge is to get rate limiting to work.
 
 ## Get Started
 

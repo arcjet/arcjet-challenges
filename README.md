@@ -13,7 +13,7 @@ This repository includes challenges for the following frameworks:
 
 ## 🎯 The Challenge
 
-Your mission is to implement rate limiting using Arcjet in one (or more!) of these skeleton apps. Once you've successfully implemented rate limiting, share evidence of your success on social media. If your post is part of an active competition, you might be eligible to win a prize!
+Your mission is to implement rate limiting using Arcjet in one (or more!) of these skeleton apps.
 
 ## 🚀 How to Participate
 
@@ -57,31 +57,11 @@ Use our [documentation](https://docs.arcjet.com) to help you get started, in par
 > - Bun: `src/pages/arcjet-challenge-accepted.ts`
 > - SvelteKit: `src/routes/arcjet-challenge-accepted/+page.server.ts`
 
-### 5. Capture your success
-
-Get both:
-
-- a screenshot or saved copy of the "Challenge Complete" image from your app
-- a screenshot of your Arcjet dashboard showing the blocked requests
-
-### 6. Share your experience
-
-Share your experience on X (formerly Twitter) and/or LinkedIn:
-
-- Start with: "I completed the #ArcjetChallenge - can you get your shields up? https://challange.arcjet.com/"
-- Add what you enjoyed about the challenge, your experience, or thoughts on the product
-- Tag [@arcjethq](https://twitter.com/arcjethq) on X (formerly Twitter)
-- Tag [Arcjet](https://www.linkedin.com/company/arcjet) on LinkedIn
-
-The personal part of your submission will be evaluated for creativity and originality when determining the winners!
-
-> ⚖️ Entries are subject to the [Arcjet Security Challenge Terms and Conditions](https://challenge.arcjet.com/terms).
-
-### 7. Share feedback (optional)
+### 5. Share feedback (optional)
 
 We value your insights! 📣 Help shape the future of Arcjet:
 
-📋 [Take our quick survey](https://forms.gle/hn8uWDNjsPeX9Dx18) to share your challenge experience, product feedback, and potentially become an Arcjet ambassador. Your input directly influences our roadmap and community initiatives. Plus, you might get early access to exciting new features!
+📋 [Take our quick survey](https://forms.gle/hn8uWDNjsPeX9Dx18) to share your challenge experience, product feedback, and potentially become an Arcjet ambassador. Your input directly influences our roadmap and community initiatives.
 
 📥 Want to give us general feedback? We'd love to hear your suggestions! Fill in our [general fee3back form](https://forms.gle/).vhpb4myy84APztte8
 
@@ -95,4 +75,4 @@ If you run into issues or have questions:
 
 ## 🍀 Good Luck!
 
-We're excited to see your implementations. Happy coding, and may the best rate limiter win!
+We're excited to see your implementations. Happy coding!

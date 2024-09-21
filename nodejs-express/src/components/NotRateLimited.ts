@@ -32,43 +32,6 @@ export default function NotRateLimited(): string {
         Trigger rate limiting by refreshing this page until you reach your
         defined max number of requests
       </li>
-      <li>
-        Capture evidence of your success:
-        <ul>
-          <li>
-            Screenshot or save a copy of the "Challenge Complete" image from
-            your app
-          </li>
-          <li>
-            Screenshot of your Arcjet dashboard showing the blocked requests
-          </li>
-        </ul>
-      </li>
-      <li>
-        Share your experience on X (formerly Twitter) and/or LinkedIn:
-        <ul>
-          <li>
-            Start your post with:
-            <code>I completed the #ArcjetChallenge - can you get your shields up?
-            https://challenge.arcjet.com/</code>
-          </li>
-          <li>
-            Add something personal - what you enjoyed about the challenge,
-            your experience, or thoughts on the product
-          </li>
-          <li>Tag @arcjethq on X (formerly Twitter)</li>
-          <li>Tag Arcjet on LinkedIn</li>
-        </ul>
-      </li>
     </ul>
-    <p>
-      The personal part of your submission will be evaluated for creativity
-      and originality when determining the winners!
-    </p>
-    <p>
-      Need an idea of what the post should look like? You can see an example
-      post on the <a href="https://challenge.arcjet.com/">Arcjet Security
-      Challenge landing page</a>.
-    </p>
   `;
 }
